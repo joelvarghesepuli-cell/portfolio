@@ -115,7 +115,7 @@
   #hero {
     min-height: 100vh;
     display: flex; align-items: center;
-    padding: 8rem 4rem 4rem;
+    padding: 6rem 1.5rem 3rem;
   }
   .hero-inner { max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
   .hero-tag {
@@ -132,7 +132,7 @@
 
   .hero-name {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(3rem, 6vw, 5.5rem);
+    font-size: clamp(2.2rem, 8vw, 5.5rem);
     font-weight: 800;
     line-height: 1.0;
     animation: fadeSlideUp 0.8s 0.1s ease both;
@@ -192,7 +192,7 @@
   }
   .avatar-frame {
     position: relative;
-    width: 320px; height: 320px;
+    width: 260px; height: 260px;
   }
   .avatar-ring {
     position: absolute; inset: 0; border-radius: 50%;
@@ -470,9 +470,7 @@
     top: 0; animation: scanDown 6s linear infinite;
     pointer-events: none;
   }
-  @keyframes scanDown { 0%{top:0} 100%{top:100%} }
-
-  /* Responsive */
+       /* Responsive */
   @media (max-width: 900px) {
 
   nav {
